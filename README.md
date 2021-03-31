@@ -6,7 +6,9 @@ file = open("C://Users//WANGFEN//Desktop//idkp1-10.txt","r")
 list = file.readlines()#每一行数据写入到list中
 print(list)
 lists = []
+
 #将txt文件转换成数组形式保存
+
 for fields in list:
     fields=fields.strip();#fields.strip()用来删除字符串两端的空白字符。
     fields=fields.strip("\n");    # fields.strip("[]")用来删除字符串两端方括号。
@@ -17,3 +19,4 @@ for fields in list:
 tracks = np.array(lists)
 boxes = tracks[:,2:6]#读入边界框坐标
 print(boxes)
+ 
