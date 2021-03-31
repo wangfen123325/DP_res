@@ -27,6 +27,6 @@ for fields in list:
 tracks = np.array(lists)
 
 boxes = tracks[:,2:6]#读入边界框坐标
-
+ 
 print(boxes)
  
