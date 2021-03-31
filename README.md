@@ -14,15 +14,15 @@ lists = []
 
 for fields in list:
 
-    fields=fields.strip();#fields.strip()用来删除字符串两端的空白字符。
-    
-    fields=fields.strip("\n");    # fields.strip("[]")用来删除字符串两端方括号。
-    
-    fields=fields.split(","); # fields.split(",")的作用是以逗号为分隔符，将字符串进行分隔。
-    
-    print(fields)
-    
-    lists.append(fields)
+fields=fields.strip();#fields.strip()用来删除字符串两端的空白字符。
+
+fields=fields.strip("\n");    # fields.strip("[]")用来删除字符串两端方括号。
+
+fields=fields.split(","); # fields.split(",")的作用是以逗号为分隔符，将字符串进行分隔。
+
+print(fields)
+
+lists.append(fields)
 
 tracks = np.array(lists)
 
