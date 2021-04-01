@@ -1,6 +1,6 @@
 #导入必要的模块  
-#import numpy as np  
-#import matplotlib.pyplot as plt
+import numpy as np  
+import matplotlib.pyplot as plt
 import re 
 
 with open('C://Users//WANGFEN//Desktop//123.txt') as f:
